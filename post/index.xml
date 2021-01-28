@@ -2,17 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>http://public2020.github.io/post/</link>
+    <link>https://public2020.github.io/post/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Jan 2021 16:58:25 +0800</lastBuildDate><atom:link href="http://public2020.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Jan 2021 10:13:15 +0800</lastBuildDate><atom:link href="https://public2020.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second</title>
+      <link>https://public2020.github.io/post/second/</link>
+      <pubDate>Thu, 28 Jan 2021 10:13:15 +0800</pubDate>
+      
+      <guid>https://public2020.github.io/post/second/</guid>
+      <description>second #添加一条路由(发往192.168.62这个网段的全部要经过网关192.168.1.1) route add -net 192.168.62.0 netmask 255.255.255.0 gw 192.168.1.1 route add -net 192.168.62.0/24 gw 192.168.1.1 #删除一条路由　删除的时候不用写网关 route del -net 192.168.122.0 netmask 255.255.255.0 route del -net 192.168.122.0/24 #添加到主机的路由 # route add –host 192.168.168.110 dev eth0 # route add –host 192.168.168.119 gw 192.168.168.1 #添加到网络的路由 # route add –net IP netmask MASK eth0 # route add –net IP netmask MASK gw IP # route add –net IP/24 eth1 #添加默认网关 # route add default gw IP #删除路由 # route del –host 192.</description>
+    </item>
+    
     <item>
       <title>First</title>
-      <link>http://public2020.github.io/post/first/</link>
+      <link>https://public2020.github.io/post/first/</link>
       <pubDate>Wed, 27 Jan 2021 16:58:25 +0800</pubDate>
       
-      <guid>http://public2020.github.io/post/first/</guid>
+      <guid>https://public2020.github.io/post/first/</guid>
       <description>hello hugo abc  def  </description>
     </item>
     
