@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://public2020.github.io/</link>
+    <link>http://public2020.github.io/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Jan 2021 16:58:25 +0800</lastBuildDate><atom:link href="https://public2020.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Jan 2021 16:58:25 +0800</lastBuildDate><atom:link href="http://public2020.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First</title>
-      <link>https://public2020.github.io/post/first/</link>
+      <link>http://public2020.github.io/post/first/</link>
       <pubDate>Wed, 27 Jan 2021 16:58:25 +0800</pubDate>
       
-      <guid>https://public2020.github.io/post/first/</guid>
+      <guid>http://public2020.github.io/post/first/</guid>
       <description>hello hugo abc  def  </description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://public2020.github.io/about/</link>
+      <link>http://public2020.github.io/about/</link>
       <pubDate>Wed, 27 Jan 2021 16:56:53 +0800</pubDate>
       
-      <guid>https://public2020.github.io/about/</guid>
+      <guid>http://public2020.github.io/about/</guid>
       <description></description>
     </item>
     
