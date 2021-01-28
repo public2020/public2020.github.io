@@ -1,38 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>My New Hugo Site</title>
-    <link>https://public2020.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 28 Jan 2021 10:13:15 +0800</lastBuildDate><atom:link href="https://public2020.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Second</title>
-      <link>https://public2020.github.io/post/second/</link>
-      <pubDate>Thu, 28 Jan 2021 10:13:15 +0800</pubDate>
-      
-      <guid>https://public2020.github.io/post/second/</guid>
-      <description>second #添加一条路由(发往192.168.62这个网段的全部要经过网关192.168.1.1) route add -net 192.168.62.0 netmask 255.255.255.0 gw 192.168.1.1 route add -net 192.168.62.0/24 gw 192.168.1.1 #删除一条路由　删除的时候不用写网关 route del -net 192.168.122.0 netmask 255.255.255.0 route del -net 192.168.122.0/24 #添加到主机的路由 # route add –host 192.168.168.110 dev eth0 # route add –host 192.168.168.119 gw 192.168.168.1 #添加到网络的路由 # route add –net IP netmask MASK eth0 # route add –net IP netmask MASK gw IP # route add –net IP/24 eth1 #添加默认网关 # route add default gw IP #删除路由 # route del –host 192.</description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>https://public2020.github.io/post/first/</link>
-      <pubDate>Wed, 27 Jan 2021 16:58:25 +0800</pubDate>
-      
-      <guid>https://public2020.github.io/post/first/</guid>
-      <description>hello hugo abc  def  </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://public2020.github.io/about/</link>
-      <pubDate>Wed, 27 Jan 2021 16:56:53 +0800</pubDate>
-      
-      <guid>https://public2020.github.io/about/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>我的全新 Hugo 网站</title>
+        <link>https://public2020.github.io/</link>
+        <description>我的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 28 Jan 2021 11:09:14 &#43;0800</lastBuildDate>
+            <atom:link href="https://public2020.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>First_post</title>
+    <link>https://public2020.github.io/posts/first_post/</link>
+    <pubDate>Thu, 28 Jan 2021 11:09:14 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://public2020.github.io/posts/first_post/</guid>
+    <description><![CDATA[123 定时发送很多时候 456 #添加一条路由(发往192.168.62这个网段的全部要经过网关192.168.1.1) route add -net 192.168.62.0 netmask 255.255.255.0 gw 192.168.1.1 route add -net 192.168.62.0/24 gw 192.168.1.1 #删]]></description>
+</item><item>
+    <title>Second</title>
+    <link>https://public2020.github.io/posts/second/</link>
+    <pubDate>Thu, 28 Jan 2021 10:13:15 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://public2020.github.io/posts/second/</guid>
+    <description><![CDATA[second #添加一条路由(发往192.168.62这个网段的全部要经过网关192.168.1.1) route add -net 192.168.62.0 netmask 255.255.255.0 gw 192.168.1.1 route add -net 192.168.62.0/24 gw 192.168.1.1 #删除一条路由 删除的时]]></description>
+</item><item>
+    <title>First</title>
+    <link>https://public2020.github.io/posts/first/</link>
+    <pubDate>Wed, 27 Jan 2021 16:58:25 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://public2020.github.io/posts/first/</guid>
+    <description><![CDATA[hello hugo abc  def  ]]></description>
+</item></channel>
 </rss>
